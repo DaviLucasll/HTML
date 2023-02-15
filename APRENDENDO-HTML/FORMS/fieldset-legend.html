@@ -1,0 +1,39 @@
+<!--
+    <fieldset>
+        Agrupamento de campos
+        mesmo propósito
+        semantico
+        acessibilidade
+    
+    Atributos:
+    -disabled
+        desabilita todos os elementos internos
+        não serão enviados ao submeter os formulários
+    -form
+        o id de um formulário ao qual esse fieldset pertence
+        não precisa estar dentro do formulário
+    -name
+        nome do grupo
+    
+    <legend>
+        nome do agrupamento
+        primeiro elemento dentro do fieldset
+-->
+
+<form action="">
+    <fieldset disabled name="contact">
+        <legend>contatos</legend>
+        <label for="nome">Nome</label>
+        <input type="text">
+    </fieldset>
+</form>
+
+<form action="" id="adress-input">
+
+</form>
+
+<fieldset form="adress-input">
+    <legend>endereço</legend>
+    <label for="endereço">Endereço</label>
+    <input type="text" name="Endereço" id="">
+</fieldset>
